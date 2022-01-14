@@ -1,4 +1,10 @@
 # JExcept
+[![All Contributors](https://img.shields.io/github/contributors/sorkhemiri/jexcept)](#contributors-)
+![Issues](https://img.shields.io/github/issues/sorkhemiri/jexcept)
+![Pull Requests](https://img.shields.io/github/issues-pr/sorkhemiri/jexcept?)
+![Forks](https://img.shields.io/github/forks/sorkhemiri/jexcept)
+![Stars](https://img.shields.io/github/stars/sorkhemiri/jexcept)
+![License](https://img.shields.io/github/license/sorkhemiri/jexcept)
 ### Json Serializable Exceptions for Python.
 
 jexcept is a framework-independent wrapper around python exception making error handling easier and more detailed in web applications.
