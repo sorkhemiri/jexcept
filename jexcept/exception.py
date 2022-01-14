@@ -9,22 +9,10 @@ class JException(BaseJException):
         self.MESSAGE = message
         self.DETAIL = detail
 
-    @property
-    def http_status(self):
-        return self.HTTP_STATUS
-
-    @property
-    def message(self):
-        return self.MESSAGE
-
-    @property
-    def detail(self):
-        return self.DETAIL
-
     def dict(self):
         return {
-            "Exception": self.message,
-            "Detail": self.detail,
+            "Exception": self.MESSAGE,
+            "Detail": self.DETAIL,
         }
 
     def __str__(self):

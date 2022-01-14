@@ -2,17 +2,9 @@ import abc
 
 
 class BaseJException(Exception):
-    @abc.abstractmethod
-    def http_status(self):
-        pass
-
-    @abc.abstractmethod
-    def message(self):
-        pass
-
-    @abc.abstractmethod
-    def detail(self):
-        pass
+    HTTP_STATUS = None
+    MESSAGE = None
+    DETAIL = None
 
     @abc.abstractmethod
     def dict(self):
