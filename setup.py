@@ -1,0 +1,26 @@
+from distutils.core import setup
+setup(
+  name='JExcept',
+  packages=['JExcept'],
+  version='0.1.0',
+  license='ISC',
+  description='Json Serializable Exceptions for Python',
+  author='Mahdi Sorkhemiri',
+  author_email='sorkhemiri@gmail.com',
+  url='https://github.com/sorkhemiri/jexcept',
+  download_url='https://github.com/sorkhemiri/jexcept/archive/refs/tags/0.1.0.tar.gz',
+  keywords=['EXCEPTION', 'HTTP_EXCEPTION', 'JSON'],
+  install_requires=[],
+  classifiers=[
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'Topic :: Software Development :: Build Tools',
+    'License :: OSI Approved :: ISC License',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.4',
+    'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+  ],
+)
